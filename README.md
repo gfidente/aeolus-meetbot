@@ -28,3 +28,7 @@ supybot-adduser conf/users.conf
 ```
 
 Don't forget to give your user the `admin` capability.
+
+### Publishing ###
+
+The minutes and log files from every meeting are save under `aeolus-meeting/$YEAR/`. We push the `*html` files live on the main site with a pull request against https://github.com/aeolusproject/aeolusproject.github.com , placing the logs under `cabals/release/minutes`.
